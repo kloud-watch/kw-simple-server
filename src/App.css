@@ -1,0 +1,36 @@
+body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.dropzone-container {
+  box-sizing: border-box;
+  padding: 15px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 95px;
+  background: #282c34;
+}
+
+section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 95px;
+  overflow: auto;
+}
+
+article {
+  width: 100%;
+  padding: 15px;
+  border-bottom: 2px solid grey;
+}
